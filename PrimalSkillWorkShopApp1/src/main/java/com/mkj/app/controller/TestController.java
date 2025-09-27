@@ -17,4 +17,9 @@ public class TestController {
 	{
 		return "Test controller of Prime Skill Executes";
 	}
+	@GetMapping("/test2")
+	public String testApp2()
+	{
+		return "Test2 controller of Prime Skill Executes";
+	}
 }
